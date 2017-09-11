@@ -137,7 +137,7 @@ cd ~
 ==========
 13. So... the lab materials are located at this url:
 
-http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+
 
 Download the file using curl... to a file called mtec1002-lab-02.zip using the commandline.  
 
@@ -148,6 +148,10 @@ Use ls to verify that it downloaded.
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
 
+curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  935k  100  935k    0     0  2326k      0 --:--:-- --:--:-- --:--:-- 2356k
 
 
 ==========
@@ -156,7 +160,7 @@ Write down the command that you used to download the file below.  Additionally, 
 Write down the command that you used to uncompress the file.
 ----------
 
-
+unzip mtech1002-lab-02.zip
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
@@ -164,7 +168,7 @@ Write down the command that you used to uncompress the file.
 Copy and paste the output below.
 ----------
 
-
+books logs web 
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
