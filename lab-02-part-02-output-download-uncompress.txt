@@ -179,6 +179,7 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 Copy and paste the output below.
 ----------
 
+The document has moved
 
 
 ==========
@@ -191,7 +192,9 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+Books/
+Logs/
+Webs/
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -202,7 +205,8 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+$/tar
+$/-cvf
 
 
 ==========
@@ -213,14 +217,18 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
+The document has moved
 
 ==========
 20. List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
+Files
+Adobe
+Explorer
+Google
+Library
 
 
 ==========
@@ -231,6 +239,7 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
 
+files/adobe/explorer/google/library/.gz extension
 
 
 ==========
@@ -254,14 +263,18 @@ $ tar -xvf stuff.tar.gz
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
 
-
+Folder
+stuff
+jpeg
+videos
+files
 
 ==========
 24. Go back to your home directory
 [No output]
 ----------
 
-
+/Users/Directory/
 
 ==========
 25. Download and uncompress this file using curl and tar -xvf in your home directory:
@@ -273,8 +286,9 @@ REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 Write out the commands that you used to do this.
 ----------
 
-
+-o, ls, cd
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
 ----------
+The amount of files that were in the archive were about 5 and the names were webpages, images, videos, jpegs, and files
